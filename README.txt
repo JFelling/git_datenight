@@ -12,6 +12,18 @@ The program is written in Python, and was created using Vistual Studio (VS) Code
 
 To run the program, download datenight.py and IdeasList files. Open datenight.py in a code editor or command prompt to use. 
 
+EXPLANATION OF CODE
+The code initializes by importing random, and reading in and formatting the lists of date night ideas for each location. It includes commented lines of code for testing that the lists have been imported correctly, should they be necessary. The code then defines a function for generating a date idea based upon a user input of location, including edge cases. It then defines a function for adding 
+
 AREAS FOR FURTHER DEVELOPMENT
+As this project was a basic terminal game, there are a number of areas for further development outside the scope of the original project. These areas include:
+  1. User interface and expereince, including on a web and/or app platform.
+  2. Expanded location options and date night idea lists.
+  3. Functionality to allow users to add new location options.
+  4. Ability to categorize ideas as indoor/outdoor, warm weather/cold weather, etc.
+  5. Functionality to interface with a weather application and suggest ideas that are weather appropriate (ex. only indoor ideas if it is forecast to rain).
+  6. Furhter filters for date nights.
+  7. User logins and profiles, which could include the ability to maintin a history of date ideas generated and/or used, track submitted date ideas, share photos  from dates, and rate and review date idea experiences.
 
 ACKNOWLEDGEMENTS
+Thank you to my dad for help troubleshooting!
