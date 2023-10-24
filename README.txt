@@ -13,7 +13,7 @@ The program is written in Python, and was created using Vistual Studio (VS) Code
 To run the program, download datenight.py and IdeasList files. Open datenight.py in a code editor or command prompt to use. 
 
 EXPLANATION OF CODE
-The code initializes by importing random, and reading in and formatting the lists of date night ideas for each location. It includes commented lines of code for testing that the lists have been imported correctly, should they be necessary. The code then defines a function for generating a date idea based upon a user input of location, including edge cases. It then defines a function for adding 
+The code initializes by importing random, and reading in and formatting the lists of date night ideas for each location. It includes commented lines of code for testing that the lists have been imported correctly, should that be necessary. The code then defines a function for generating a date idea based upon a user input of location, including edge cases. It then defines a function for adding user generated ideas to the appropriate date ideas list and formatting the input to match. After the functions are defined, the rest of the code sets up print statements and options for user input to either add or generate random date ideas. If addind an idea, the code includes writing the idea back to the IdeasLists file in the appropriate location. Each option ends by allowing the user to restart or end the program. 
 
 AREAS FOR FURTHER DEVELOPMENT
 As this project was a basic terminal game, there are a number of areas for further development outside the scope of the original project. These areas include:
@@ -22,8 +22,9 @@ As this project was a basic terminal game, there are a number of areas for furth
   3. Functionality to allow users to add new location options.
   4. Ability to categorize ideas as indoor/outdoor, warm weather/cold weather, etc.
   5. Functionality to interface with a weather application and suggest ideas that are weather appropriate (ex. only indoor ideas if it is forecast to rain).
-  6. Furhter filters for date nights.
+  6. Further filters for date nights.
   7. User logins and profiles, which could include the ability to maintin a history of date ideas generated and/or used, track submitted date ideas, share photos  from dates, and rate and review date idea experiences.
+  8. Functionality to prevent users adding date ideas that are inappropriate or gibberish. 
 
 ACKNOWLEDGEMENTS
 Thank you to my dad for help troubleshooting!
